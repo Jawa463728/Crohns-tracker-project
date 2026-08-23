@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#f6f7f4" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="My Health" />
+  <title>My Health</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <section id="authView" class="auth-shell">
+    <div class="auth-card">
+      <div class="brand-mark" aria-hidden="true">H</div>
+      <p class="eyebrow">PRIVATE HEALTH JOURNAL</p>
+      <h1>Welcome back</h1>
+      <p class="muted">Sign in to your personal health dashboard.</p>
+
+      <form id="loginForm" class="stack">
+        <label>Email
+          <input id="loginEmail" type="email" autocomplete="username" required />
+        </label>
+        <label>Password
+          <input id="loginPassword" type="password" autocomplete="current-password" required minlength="6" />
+        </label>
+        <button class="primary" type="submit">Sign in</button>
+      </form>
+
+      <button id="showRegister" class="text-button">Create an account</button>
+
+      <form id="registerForm" class="stack hidden">
+        <div class="divider"></div>
+        <label>Your name
+          <input id="registerName" type="text" autocomplete="name" maxlength="40" />
+        </label>
+        <label>Email
+          <input id="registerEmail" type="email" autocomplete="email" required />
+        </label>
+        <label>Password
+          <input id="registerPassword" type="password" autocomplete="new-password" required minlength="8" />
+        </label>
+        <button class="secondary" type="submit">Create secure account</button>
+      </form>
+
+      <p class="fineprint">Your health records are stored in your Firebase account, not in this GitHub repository.</p>
+    </div>
+  </section>
+
+  <div id="appView" class="app hidden">
+    <header class="topbar">
+      <div>
+        <p id="todayDate" class="eyebrow"></p>
+        <h1 id="greeting">Today</h1>
+      </div>
+      <button id="profileButton" class="avatar" aria-label="Open more">H</button>
+    </header>
+
+    <main>
+      <section id="tab-today" class="tab active">
+        <div id="newsTicker" class="ticker" aria-label="Latest Crohn's news">
+          <strong>Latest</strong>
+          <div class="ticker-window"><div id="tickerTrack" class="ticker-track">Loading headlines…</div></div>
+        </div>
+
+        <article class="score-card">
+          <div>
+            <p class="eyebrow">DAILY BALANCE</p>
+            <div class="score-row">
+              <span id="scoreValue" class="score-value">—</span>
+              <span class="score-denom">/100</span>
+            </div>
+            <p id="scoreLabel" class="muted">Complete today’s check-in to build your score.</p>
+          </div>
+          <div id="scoreRing" class="score-ring"><span id="scoreRingText">—</span></div>
+        </article>
+
+        <article class="card medication-card">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">MEDICATION</p>
+              <h2>Today’s doses</h2>
+            </div>
+            <button id="openStock" class="text-button">Stock</button>
+          </div>
+
+          <button id="rinvoqButton" class="med-row">
+            <span class="med-icon">R</span>
+            <span class="med-copy">
+              <strong>Rinvoq</strong>
+              <small id="rinvoqStatus">Not logged yet</small>
+              <small id="rinvoqStockText" class="stock-line"></small>
+            </span>
+            <span id="rinvoqTick" class="check-circle">✓</span>
+          </button>
+
+          <button id="movicolButton" class="med-row">
+            <span class="med-icon">M</span>
+            <span class="med-copy">
+              <strong>Movicol</strong>
+              <small id="movicolStatus">Not logged yet</small>
+              <small id="movicolStockText" class="stock-line"></small>
+            </span>
+            <span id="movicolTick" class="check-circle">✓</span>
+          </button>
+        </article>
+
+        <article class="card checkin-card">
+          <div class="progress-header">
+            <div>
+              <p class="eyebrow">DAILY CHECK-IN</p>
+              <h2 id="questionTitle">How are you feeling?</h2>
+            </div>
+            <span id="questionCount" class="progress-count">1/10</span>
+          </div>
+          <div class="progress"><span id="progressBar"></span></div>
+          <p id="questionPrompt" class="muted"></p>
+          <div id="answerArea" class="answer-area"></div>
+          <div class="checkin-actions">
+            <button id="backQuestion" class="text-button">Back</button>
+            <button id="skipQuestion" class="text-button">Skip</button>
+          </div>
+        </article>
+
+        <article class="card quick-log-card">
+          <div>
+            <p class="eyebrow">QUICK LOG</p>
+            <h2>Bowel movement</h2>
+            <p class="muted">Log one without restarting your full check-in.</p>
+          </div>
+          <button id="quickBowel" class="secondary compact">+ Log</button>
+        </article>
+      </section>
+
+      <section id="tab-insights" class="tab">
+        <div class="page-title">
+          <p class="eyebrow">YOUR PATTERNS</p>
+          <h1>Insights</h1>
+        </div>
+        <div class="segmented" id="rangeSelector">
+          <button data-days="7" class="active">7 days</button>
+          <button data-days="30">30 days</button>
+          <button data-days="90">90 days</button>
+        </div>
+
+        <article class="card chart-card">
+          <div class="section-head"><div><p class="eyebrow">OVERVIEW</p><h2>Daily Balance</h2></div></div>
+          <canvas id="scoreChart"></canvas>
+        </article>
+        <article class="card chart-card">
+          <div class="section-head"><div><p class="eyebrow">LIFESTYLE</p><h2>Stress & sleep</h2></div></div>
+          <canvas id="stressSleepChart"></canvas>
+        </article>
+        <article class="card chart-card">
+          <div class="section-head"><div><p class="eyebrow">BOWEL HEALTH</p><h2>Frequency & consistency</h2></div></div>
+          <canvas id="bowelChart"></canvas>
+        </article>
+
+        <div id="insightCards" class="insight-grid"></div>
+      </section>
+
+      <section id="tab-history" class="tab">
+        <div class="page-title">
+          <p class="eyebrow">YOUR RECORD</p>
+          <h1>History</h1>
+        </div>
+        <div id="historyList" class="history-list"></div>
+      </section>
+
+      <section id="tab-news" class="tab">
+        <div class="page-title">
+          <p class="eyebrow">CROHN’S TODAY</p>
+          <h1>Latest news</h1>
+          <p class="muted">Headlines are for information only and are not medical advice.</p>
+        </div>
+        <div id="newsGrid" class="news-grid"></div>
+      </section>
+
+      <section id="tab-more" class="tab">
+        <div class="page-title">
+          <p class="eyebrow">SETTINGS</p>
+          <h1>More</h1>
+        </div>
+
+        <article class="card">
+          <p class="eyebrow">MEDICATION STOCK</p>
+          <h2>Prescription tracker</h2>
+          <div class="settings-grid">
+            <label>Rinvoq tablets remaining
+              <input id="rinvoqStock" type="number" inputmode="numeric" min="0" />
+            </label>
+            <label>Order Rinvoq when this many days remain
+              <input id="rinvoqBuffer" type="number" inputmode="numeric" min="0" value="14" />
+            </label>
+            <label>Movicol sachets remaining
+              <input id="movicolStock" type="number" inputmode="numeric" min="0" />
+            </label>
+            <label>Order Movicol when this many days remain
+              <input id="movicolBuffer" type="number" inputmode="numeric" min="0" value="7" />
+            </label>
+          </div>
+          <button id="saveStock" class="primary">Save stock settings</button>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">YOUR DATA</p>
+          <h2>Export</h2>
+          <p class="muted">Download a JSON copy of your saved records.</p>
+          <button id="exportData" class="secondary">Export my data</button>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">ACCOUNT</p>
+          <h2 id="accountName">Signed in</h2>
+          <p id="accountEmail" class="muted"></p>
+          <button id="signOutButton" class="danger">Sign out</button>
+        </article>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button data-tab="today" class="active"><span>●</span>Today</button>
+      <button data-tab="insights"><span>⌁</span>Insights</button>
+      <button data-tab="history"><span>◷</span>History</button>
+      <button data-tab="news"><span>≋</span>News</button>
+      <button data-tab="more"><span>•••</span>More</button>
+    </nav>
+  </div>
+
+  <dialog id="bowelDialog">
+    <form method="dialog" class="dialog-card" id="bowelForm">
+      <div class="section-head">
+        <div><p class="eyebrow">QUICK LOG</p><h2>Bowel movement</h2></div>
+        <button value="cancel" class="icon-button" aria-label="Close">×</button>
+      </div>
+      <label>Consistency (Bristol type 1–7)
+        <input id="quickConsistency" type="range" min="1" max="7" value="4" />
+        <output id="consistencyOutput">4</output>
+      </label>
+      <label>Urgency
+        <select id="quickUrgency">
+          <option value="1">None</option>
+          <option value="2">Mild</option>
+          <option value="3">Moderate</option>
+          <option value="4">Strong</option>
+          <option value="5">Very strong</option>
+        </select>
+      </label>
+      <label class="switch-row"><input id="quickBlood" type="checkbox" /> Blood noticed</label>
+      <label class="switch-row"><input id="quickMucus" type="checkbox" /> Mucus noticed</label>
+      <button id="saveBowel" value="default" class="primary">Save log</button>
+    </form>
+  </dialog>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

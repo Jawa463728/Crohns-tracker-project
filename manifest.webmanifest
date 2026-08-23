@@ -1,0 +1,9 @@
+{
+  "name": "My Health",
+  "short_name": "My Health",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f5f1",
+  "theme_color": "#f4f5f1",
+  "description": "Private personal health tracker"
+}
