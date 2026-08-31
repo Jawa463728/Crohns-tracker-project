@@ -54,16 +54,16 @@
     "published": "Mon, 08 Jun 2026 07:00:00 GMT"
   },
   {
-    "title": "'For years, I lied about why I kept cancelling plans. The truth took a year to diagnose.' - Mamamia",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FR2lDUWxjNERpZEVUSVlTZlJJSzJXM1pLSFQzZG5LNUthUE9aNkJsbFBxeVFNZWRrTk83Q3ptVEsyalJoQjJLbXRpSWlIcmhsYlF4Z0R6YlAwQTRYWWRN?oc=5",
-    "source": "Mamamia",
-    "published": "Sun, 30 Aug 2026 20:42:28 GMT"
-  },
-  {
     "title": "Upadacitinib demonstrates one-year effectiveness in refractory perianal Crohn’s disease - Hospital Healthcare Europe",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQb1lGX1JhbVkwM2dOT3RTLUdJeVM4V2VVb3c5QVA4WWVFb1dHLTBLM2JvWUl2UU84eDhBV2ZxOTRKU0ZRVVljeWhyVXp3VWJ6R3dXODdyRmJwWEdmY3ZBX3NHWW9OdHlDNHlleVRJUy16VENPXzdrQkVLZklCcnVpTjJOckczNFVYLVFfMUE0VDExSWZOWi1YNGFCeVVpR1RFaGNaOE01U2tyVjlCcEM5Q2Nyc2o4WEFHNGRsT2hlTUNqSW1kZzIzMFhvQnh4VnlBVEF4ZzhsQk53OXpzcy1kQQ?oc=5",
     "source": "Hospital Healthcare Europe",
     "published": "Tue, 09 Jun 2026 07:00:00 GMT"
+  },
+  {
+    "title": "3D DNA organization in rare immune cells can explain Crohn's disease risk - News-Medical",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVlp5c3Nvb0R5dVBqbEJaV1dacUZ6NTBRai1rdC10ZUxlYTFkdUt6bzNOYjg1ZE5zTW5DSWpsenU3cEE2SjlkdUVVMklGVDU4RVBwaU04UWJ4WDVFOG0zNjFWMkRocU1ZM2lnMlozU3hTVmptcGtiSjZEcnBQRUZuX3NhUlBXWXpNd3hWU2R6YTVLRWREWm5IdVJIWWJIMk1jWkZrZ0t4ODViNGE3WU55NUZEcUZCQlJ1UTh0ag?oc=5",
+    "source": "News-Medical",
+    "published": "Tue, 04 Aug 2026 07:00:00 GMT"
   },
   {
     "title": "Shared inflammatory architecture and therapeutic tensions between psoriasis and Crohn’s disease - Frontiers",
@@ -108,12 +108,6 @@
     "published": "Thu, 06 Aug 2026 07:00:00 GMT"
   },
   {
-    "title": "A mom’s journey beyond Crohn’s disease and back to the moments that matter (VIDEO) - Mayo Clinic News Network",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZWJmWWt2NXhDMTY0X0RxLTF3YlRGbkNxODVHQnZEd01YYWNXRXo0U0RTTVpYbmdTTFFKeHl1MktIam0wMy1sYTAwN2cwQl9ZQkdMcVNIM2lmYktlaXJtMnBLLVhpeDhrc2hwMUotNGZJTVUzSGFwa1ptR1Z1aHItOERvbVpmX2laX0FVQkRJRUE3dmxhcEhXcWVreDQwWmFwQ1NuMWRUbWFnTXNoSTVlUXJhSGtsMWJwWmtVblJqM09keUk?oc=5",
-    "source": "Mayo Clinic News Network",
-    "published": "Mon, 27 Jul 2026 07:00:00 GMT"
-  },
-  {
     "title": "An immune defect that may set Crohn's disease in motion - Medical Xpress",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3F2Tkp5NEJXVXhhYmNISzMtODhGajc5cVNibXZCZWl5R2kyc0lWWlZpbXdManVwSVdzc21NcGRtU1dYQW1uSkhmSDJBZkFBNWxxa0ZsWkZxbHE5VlgwZ0p2UjZmVzZSdXdHVnVPclRaVV96M1B0Y041X2JOVUFiSFZZUGg?oc=5",
     "source": "Medical Xpress",
@@ -126,10 +120,16 @@
     "published": "Tue, 10 Mar 2026 07:00:00 GMT"
   },
   {
-    "title": "AbbVie Submits Regulatory Application to EMA for SKYRIZI® Subcutaneous Induction for Adults with Moderately to Severely Active Crohn's Disease - Investing News Network",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNWlpTFdjOGtmX0hyaVlpWEdGaFJvSjZLRnhuMG5GQklRTXB4Qmd5SWVaQ3hhNXR2SXpNS00wM2ZzOGx0em96c2N4bmczQWZkTU14X3ZiZTJYNUFxNnJDNjJPa0Joc3hSX29JWUlXQjBoMEZ4NW95Mk03ZlZnRnBZN01JS0NBTlBlSVdXSXVUb0VGWVoyS0pIeHlxWUdsVzRhb0ZUeS1JVlpTSGgxS2pSVkd3ZW9raG02VDVoelo1cWdhamVPamxxSzk5R2o1N3EwNTJiUWdaZ3VlQjZEWmxlOS15Z1c5OWN5VXZhbUtINWRHcnJ4aUNwQlQ1Vjhydzg?oc=5",
-    "source": "Investing News Network",
-    "published": "Thu, 27 Aug 2026 06:42:35 GMT"
+    "title": "'For years, I lied about why I kept cancelling plans. The truth took a year to diagnose.' - Mamamia",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FR2lDUWxjNERpZEVUSVlTZlJJSzJXM1pLSFQzZG5LNUthUE9aNkJsbFBxeVFNZWRrTk83Q3ptVEsyalJoQjJLbXRpSWlIcmhsYlF4Z0R6YlAwQTRYWWRN?oc=5",
+    "source": "Mamamia",
+    "published": "Sun, 30 Aug 2026 20:42:28 GMT"
+  },
+  {
+    "title": "A mom’s journey beyond Crohn’s disease and back to the moments that matter (VIDEO) - Mayo Clinic News Network",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZWJmWWt2NXhDMTY0X0RxLTF3YlRGbkNxODVHQnZEd01YYWNXRXo0U0RTTVpYbmdTTFFKeHl1MktIam0wMy1sYTAwN2cwQl9ZQkdMcVNIM2lmYktlaXJtMnBLLVhpeDhrc2hwMUotNGZJTVUzSGFwa1ptR1Z1aHItOERvbVpmX2laX0FVQkRJRUE3dmxhcEhXcWVreDQwWmFwQ1NuMWRUbWFnTXNoSTVlUXJhSGtsMWJwWmtVblJqM09keUk?oc=5",
+    "source": "Mayo Clinic News Network",
+    "published": "Mon, 27 Jul 2026 07:00:00 GMT"
   },
   {
     "title": "Living well with Crohn’s disease: Your guide to managing symptoms and more - PeaceHealth",
@@ -144,9 +144,9 @@
     "published": "Mon, 27 Jul 2026 16:23:58 GMT"
   },
   {
-    "title": "Are GLP-1 Drugs Safe With Crohn’s Disease? - HealthCentral",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOTFqLXhVNGdYelhxemRENUNNZXRWN2wwa1l2ekhpWk9qd0dCVEFDV1diMmd5bkMtaTFZb3lkTHp4dXdIU2dZMk9MbDNTSEU0bXdpZ1NhV2FNSU5SMmhoa1lva3Bibkd6d0RTMVFxdTFlcjdJSmFhZnRWVzNxcGNCRnhYekpUek0?oc=5",
-    "source": "HealthCentral",
-    "published": "Thu, 09 Jul 2026 07:00:00 GMT"
+    "title": "AbbVie Submits Regulatory Application to EMA for SKYRIZI® Subcutaneous Induction for Adults with Moderately to Severely Active Crohn's Disease - Investing News Network",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNWlpTFdjOGtmX0hyaVlpWEdGaFJvSjZLRnhuMG5GQklRTXB4Qmd5SWVaQ3hhNXR2SXpNS00wM2ZzOGx0em96c2N4bmczQWZkTU14X3ZiZTJYNUFxNnJDNjJPa0Joc3hSX29JWUlXQjBoMEZ4NW95Mk03ZlZnRnBZN01JS0NBTlBlSVdXSXVUb0VGWVoyS0pIeHlxWUdsVzRhb0ZUeS1JVlpTSGgxS2pSVkd3ZW9raG02VDVoelo1cWdhamVPamxxSzk5R2o1N3EwNTJiUWdaZ3VlQjZEWmxlOS15Z1c5OWN5VXZhbUtINWRHcnJ4aUNwQlQ1Vjhydzg?oc=5",
+    "source": "Investing News Network",
+    "published": "Thu, 27 Aug 2026 06:42:35 GMT"
   }
 ]
