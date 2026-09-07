@@ -18,12 +18,6 @@
     "published": "Sun, 19 Jul 2026 07:00:00 GMT"
   },
   {
-    "title": "Pioneering Crohn’s disease surgery offered on NHS in Sussex - The Argus",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMDVUQVZvNWVnaFdLc1dxNjh6U2NoSFJqUkg3NzJyV1NxWEZNX2hLXzdJU3ZpVDRnUHdTZE5DOGlHVVZ3Z2hxZTJXS29pTXF2VmdEQzJPZEJXTEIyWkN6MGRLcnJBcWR5YlVfZHotVzZDN1RUSEhRbms1TlNOTjB0YnY4cTluaXFTcXVIYW9oS1hMSE0wb1llTDlB?oc=5",
-    "source": "The Argus",
-    "published": "Tue, 01 Sep 2026 04:00:00 GMT"
-  },
-  {
     "title": "AI-augmented analysis sheds new light on Crohn's disease complications - News-Medical",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYVdNVkZSOHZlTmNTOXVGYzNmcEhndGMtMW80MThuM29JeHgwMXhlaFFheU5TRkQxa0g4RWZwejV5b0FMekNRUVdscEdFc1FsWmJiMGNYZ0FVOXE3OGU3ZzJySmNvRjFCUXpuRXdxMFY0SlhlSlYzSzNaSU1TLTRtYW53Nmo1ckxxWGxZcUs3clV5cmh0Q2lzbjN0bWVZc0hsM1lKS2lHZXJzVGZmMWE3bkp5cGdfT0V2?oc=5",
     "source": "News-Medical",
@@ -34,6 +28,12 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3F2Tkp5NEJXVXhhYmNISzMtODhGajc5cVNibXZCZWl5R2kyc0lWWlZpbXdManVwSVdzc21NcGRtU1dYQW1uSkhmSDJBZkFBNWxxa0ZsWkZxbHE5VlgwZ0p2UjZmVzZSdXdHVnVPclRaVV96M1B0Y041X2JOVUFiSFZZUGg?oc=5",
     "source": "Medical Xpress",
     "published": "Tue, 18 Aug 2026 07:00:00 GMT"
+  },
+  {
+    "title": "Pioneering Crohn’s disease surgery offered on NHS in Sussex - The Argus",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMDVUQVZvNWVnaFdLc1dxNjh6U2NoSFJqUkg3NzJyV1NxWEZNX2hLXzdJU3ZpVDRnUHdTZE5DOGlHVVZ3Z2hxZTJXS29pTXF2VmdEQzJPZEJXTEIyWkN6MGRLcnJBcWR5YlVfZHotVzZDN1RUSEhRbms1TlNOTjB0YnY4cTluaXFTcXVIYW9oS1hMSE0wb1llTDlB?oc=5",
+    "source": "The Argus",
+    "published": "Tue, 01 Sep 2026 04:00:00 GMT"
   },
   {
     "title": "Shared inflammatory architecture and therapeutic tensions between psoriasis and Crohn’s disease - Frontiers",
@@ -54,9 +54,9 @@
     "published": "Tue, 18 Aug 2026 04:12:40 GMT"
   },
   {
-    "title": "A web-based prediction model using routinely available clinical variables to estimate surgical risk in Crohn’s disease during remission or mild activity - nature.com",
+    "title": "A web-based prediction model using routinely available clinical variables to estimate surgical risk in Crohn’s disease during remission or mild activity - Nature",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHd1BDR0JvMzJpZmJ6R3p0dU5sc3JBV1RsUWIydEs4eXZjOE85c0wzV2Q1T3VpbkNTWWR3dTh4a19fOUpPWUZmM3g5cDBvZHV6QzY4ZmN0ZGdJT2tpTmI0?oc=5",
-    "source": "nature.com",
+    "source": "Nature",
     "published": "Mon, 13 Apr 2026 07:00:00 GMT"
   },
   {
@@ -102,9 +102,9 @@
     "published": "Wed, 19 Aug 2026 07:00:00 GMT"
   },
   {
-    "title": "Targeting cell death in Crohn’s disease: from mechanisms to medicines - nature.com",
+    "title": "Targeting cell death in Crohn’s disease: from mechanisms to medicines - Nature",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BOEhza1V5ZHNXdElMQkhZNGwyLWEtUnFRWHQyeG9sRlhMTThXUThvRnVrWV9DLWtrOXdNQ1B2YjRNeFJsREdKM2xubXB0Y3Z6SmlWM2hDQlVra3pnSjg4?oc=5",
-    "source": "nature.com",
+    "source": "Nature",
     "published": "Tue, 10 Mar 2026 07:00:00 GMT"
   },
   {
@@ -114,9 +114,9 @@
     "published": "Tue, 04 Aug 2026 07:00:00 GMT"
   },
   {
-    "title": "Tissue transcriptional programs stratify Crohn’s disease by therapeutic response and clinical outcomes - nature.com",
+    "title": "Tissue transcriptional programs stratify Crohn’s disease by therapeutic response and clinical outcomes - Nature",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hSm5xZDQ1bzlOcjNqbmVFcWhrVnpDNnQxbXM2U3dLaDdYMDNyYlRqLWlMTnlDbmQzMlVOVXFWTVlrN0hhS0VyZU9mWHdiWF9LeWtpTEJhYy1CdWVVaDBB?oc=5",
-    "source": "nature.com",
+    "source": "Nature",
     "published": "Tue, 19 May 2026 07:00:00 GMT"
   },
   {
@@ -124,6 +124,12 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPenM5YkgyNnVDeVhhZlpPNGRZdnUtQXh0bmpqdUsycDhMa28zbzVyU2dkc3FITjNtYlZMS0JHMFV2RXZVOTJtYzZPcEp4Q3doRHpRXzU1MXhNOExGazREdExQdWpWdVkyWGV5NGdjZThCY0tJQlk0OGVvdjRBYVFTdUsxS2RqeS0wMnNHTGNacFVrbEk?oc=5",
     "source": "Medical Xpress",
     "published": "Wed, 19 Aug 2026 07:00:00 GMT"
+  },
+  {
+    "title": "How to Date with Crohn’s Disease, According to Experts - GQ",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MTVMxV2luc3p0XzIwaC1RWVpqU2FtWmU4QkY3dEFpRU9jREJiQm5tZXdSUHRnLXdHcEFSbTVTTGMxNU1mM1BDa0lPX1NkVFE2eWVPZVd1UWJyckdaSl85aw?oc=5",
+    "source": "GQ",
+    "published": "Thu, 03 Sep 2026 16:14:36 GMT"
   },
   {
     "title": "Intestinal ultrasound to detect postoperative recurrence in patients with Crohn's disease: an international, multidisciplinary, RAND/UCLA appropriateness method study - The Lancet",
@@ -138,15 +144,9 @@
     "published": "Fri, 13 Feb 2026 08:00:00 GMT"
   },
   {
-    "title": "New-onset Crohn’s disease after secukinumab treatment - link.springer.com",
+    "title": "New-onset Crohn’s disease after secukinumab treatment - Springer Nature Link",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jMWh0cVFXZ1dZUXE4ekFrYkhjaHZZV09FWGZRUHZlblo0Y0ZnNXVEYnRTSVFpQ2pLa0F0WnY5XzM3emdONTVkRVJzQ1lMVURoVTZlLXFSbVQwNXNfRlhzeVExQllJcUY1Wk1tRA?oc=5",
-    "source": "link.springer.com",
+    "source": "Springer Nature Link",
     "published": "Sat, 06 Jun 2026 07:00:00 GMT"
-  },
-  {
-    "title": "How to Date with Crohn’s Disease, According to Experts - GQ",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MTVMxV2luc3p0XzIwaC1RWVpqU2FtWmU4QkY3dEFpRU9jREJiQm5tZXdSUHRnLXdHcEFSbTVTTGMxNU1mM1BDa0lPX1NkVFE2eWVPZVd1UWJyckdaSl85aw?oc=5",
-    "source": "GQ",
-    "published": "Thu, 03 Sep 2026 16:14:36 GMT"
   }
 ]
